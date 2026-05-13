@@ -27,8 +27,16 @@
 
 > ⚠️ 由于未经 Apple 签名，首次打开时 macOS 会提示"无法验证开发者"。请前往**系统设置 → 隐私与安全性**，点击「仍要打开」即可。
 
-### Windows 安装
-Windows 安装包正在准备中，敬请期待。
+### Windows 构建（需要开发环境）
+前置要求：Python 3.9+、Node.js 18+、pip、npm
+
+```bash
+# 在 Windows 上克隆源码仓库后，进入 stockradar 目录运行：
+build-win.bat
+# 完成后安装包生成在 frontend\dist-electron\StockRadar Setup 0.1.0.exe
+```
+
+也可以直接下载本仓库中的 `build-win.bat`，放到源码的 `stockradar/` 目录下运行。
 
 ---
 
@@ -57,8 +65,14 @@ Download the appropriate file, open it, and drag the app into your Applications 
 
 > ⚠️ Because the app is not signed with an Apple Developer certificate, macOS may show "cannot verify developer." Go to **System Settings → Privacy & Security** and click "Open Anyway."
 
-### Windows Installation
-Windows installer coming soon.
+### Windows Build (requires dev environment)
+Prerequisites: Python 3.9+, Node.js 18+, pip, npm
+
+```bash
+# Clone the source repo, go to the stockradar/ directory, then run:
+build-win.bat
+# Output: frontend\dist-electron\StockRadar Setup 0.1.0.exe
+```
 
 ---
 
@@ -87,8 +101,14 @@ Windows installer coming soon.
 
 > ⚠️ Apple 開発者署名がないため、初回起動時に「開発元を確認できません」と表示されることがあります。**システム設定 → プライバシーとセキュリティ**から「このまま開く」をクリックしてください。
 
-### Windows インストール
-Windows インストーラーは準備中です。しばらくお待ちください。
+### Windows ビルド（開発環境が必要）
+前提条件：Python 3.9+、Node.js 18+、pip、npm
+
+```bash
+# ソースコードをクローン後、stockradar/ ディレクトリで実行：
+build-win.bat
+# 完了後、インストーラーは frontend\dist-electron\StockRadar Setup 0.1.0.exe に生成されます
+```
 
 ---
 
