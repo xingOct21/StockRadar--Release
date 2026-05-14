@@ -1,5 +1,9 @@
 # StockRadar 📡
 
+![首页热门推荐](screenshot1.png)
+![股票搜索与竞争对手](screenshot2.png)
+![AI新闻影响分析](screenshot3.png)
+
 ---
 
 ## 中文
