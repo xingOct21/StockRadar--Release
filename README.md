@@ -21,7 +21,11 @@
 ### 使用前准备
 需要一个 **DeepSeek API Key**，在 [platform.deepseek.com](https://platform.deepseek.com) 免费注册后获取，费用极低（每次搜索 < ¥0.01）。首次启动后在界面内填入即可。
 
-### Mac 安装
+### 下载安装
+
+前往 [Releases](https://github.com/xingOct21/StockRadar--Release/releases/latest) 页面下载对应版本。
+
+**Mac**
 | 文件 | 适用机型 |
 |------|----------|
 | `StockRadar-0.1.0-arm64.dmg` | Apple Silicon（M1 / M2 / M3） |
@@ -31,16 +35,12 @@
 
 > ⚠️ 由于未经 Apple 签名，首次打开时 macOS 会提示"无法验证开发者"。请前往**系统设置 → 隐私与安全性**，点击「仍要打开」即可。
 
-### Windows 构建（需要开发环境）
-前置要求：Python 3.9+、Node.js 18+、pip、npm
+**Windows**
+| 文件 | 说明 |
+|------|------|
+| `StockRadar.Setup.0.1.0.exe` | Windows 一键安装包 |
 
-```bash
-# 在 Windows 上克隆源码仓库后，进入 stockradar 目录运行：
-build-win.bat
-# 完成后安装包生成在 frontend\dist-electron\StockRadar Setup 0.1.0.exe
-```
-
-也可以直接下载本仓库中的 `build-win.bat`，放到源码的 `stockradar/` 目录下运行。
+下载后双击运行，按提示完成安装即可。
 
 ---
 
@@ -59,7 +59,11 @@ A personal stock intelligence tracker. Enter a ticker or company name to automat
 ### Before You Start
 You need a **DeepSeek API Key** — sign up for free at [platform.deepseek.com](https://platform.deepseek.com). Cost is minimal (< ¥0.01 per search). Enter it in the app on first launch.
 
-### Mac Installation
+### Download & Install
+
+Go to the [Releases](https://github.com/xingOct21/StockRadar--Release/releases/latest) page to download.
+
+**Mac**
 | File | Target |
 |------|--------|
 | `StockRadar-0.1.0-arm64.dmg` | Apple Silicon (M1 / M2 / M3) |
@@ -69,14 +73,12 @@ Download the appropriate file, open it, and drag the app into your Applications 
 
 > ⚠️ Because the app is not signed with an Apple Developer certificate, macOS may show "cannot verify developer." Go to **System Settings → Privacy & Security** and click "Open Anyway."
 
-### Windows Build (requires dev environment)
-Prerequisites: Python 3.9+, Node.js 18+, pip, npm
+**Windows**
+| File | Description |
+|------|-------------|
+| `StockRadar.Setup.0.1.0.exe` | Windows installer |
 
-```bash
-# Clone the source repo, go to the stockradar/ directory, then run:
-build-win.bat
-# Output: frontend\dist-electron\StockRadar Setup 0.1.0.exe
-```
+Download and double-click to install.
 
 ---
 
@@ -95,7 +97,11 @@ build-win.bat
 ### 事前準備
 **DeepSeek API Key** が必要です。[platform.deepseek.com](https://platform.deepseek.com) で無料登録後に取得できます。費用はわずかです（1回の検索 < ¥0.01）。アプリ初回起動時に画面内で入力してください。
 
-### Mac インストール
+### ダウンロード・インストール
+
+[Releases](https://github.com/xingOct21/StockRadar--Release/releases/latest) ページから対応バージョンをダウンロードしてください。
+
+**Mac**
 | ファイル | 対象機種 |
 |----------|----------|
 | `StockRadar-0.1.0-arm64.dmg` | Apple Silicon（M1 / M2 / M3） |
@@ -105,14 +111,12 @@ build-win.bat
 
 > ⚠️ Apple 開発者署名がないため、初回起動時に「開発元を確認できません」と表示されることがあります。**システム設定 → プライバシーとセキュリティ**から「このまま開く」をクリックしてください。
 
-### Windows ビルド（開発環境が必要）
-前提条件：Python 3.9+、Node.js 18+、pip、npm
+**Windows**
+| ファイル | 説明 |
+|----------|------|
+| `StockRadar.Setup.0.1.0.exe` | Windows インストーラー |
 
-```bash
-# ソースコードをクローン後、stockradar/ ディレクトリで実行：
-build-win.bat
-# 完了後、インストーラーは frontend\dist-electron\StockRadar Setup 0.1.0.exe に生成されます
-```
+ダウンロード後、ダブルクリックしてインストールしてください。
 
 ---
 
